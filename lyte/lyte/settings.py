@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     'events',
     'rest_framework',
     'gunicorn',
-    'django_heroku',
-    'lyte.settings'
+    'django_heroku'
 ]
 
 MIDDLEWARE = [
