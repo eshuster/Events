@@ -18,4 +18,7 @@ class EventService:
 					else:
 						new_event = Event(name=event['name']['text'], start_date=event['start']['utc'], organizer_id=event['organization_id'], ticket_cost=float(ticket_classes[0]['cost']['major_value']))
 			
-			new_event.save()
+			try:
+				new_event.save(ignore_conflicts=True)
+			except:
+				pass
