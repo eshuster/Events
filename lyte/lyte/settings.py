@@ -26,7 +26,7 @@ SECRET_KEY = 'd!$q1uvfkgu4@0g&#z1k)w189%gwvmi*by4(tfu))#n#ji7fr$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://lyte-events.herokuapp.com', 'localhost']
 
 # Application definition
 
