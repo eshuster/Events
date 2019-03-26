@@ -1,1 +1,1 @@
-web: gunicorn lyte.wsgi --log-file -
+web: gunicrn lyte.wsgi --log-file -
